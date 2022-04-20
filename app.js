@@ -5,6 +5,11 @@ const Button = document.getElementById("Button");
 const bird = document.getElementById("bird");
 const hidden = document.getElementById("hidden")
 
+Button.addEventListener('click', () => {
+
+    bird.classList.remove ('hidden');
+});
+
 
 
 
