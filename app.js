@@ -1,9 +1,9 @@
 
 // grab DOM elements
-const Name = document.getElementById("Name");
-const Button = document.getElementById("Button");
-const bird = document.getElementById("bird");
-const hidden = document.getElementById("hidden")
+
+const Button = document.getElementById('Button');
+const bird = document.getElementById('bird');
+
 
 Button.addEventListener('click', () => {
 
