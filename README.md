@@ -8,10 +8,22 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 
 1. **Make a drawing of your app. Simple "wireframes"**
 1. **Once you have a drawing, name the HTML elements you'll need to realize your vision**
+
+Elements Needed:
+    Header, title, section, div
+
 1. **For each HTML element ask: Why do I need this?**
+
+Header: Shows the tab info, title: shows what the page is about, section: where bulk of work for this project will be done, 
 1. **Once we know _why_ we need each element, think about how to implement the "Why" as a "How"**
+
+ID relevant elements into JS with const vari, and use them to articulate function of button and display.
+
 1. **Find all the 'events' (user clicks, form submit, on load etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change?**
 1. **Think about how to validate each of your features according to a Definition of Done**
+
+    Verify on netily and through live page on VScode
+    
 1. **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
 
 Additional considerations:
